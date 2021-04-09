@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primary"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        style="@style/toolbar"
+        android:background="@color/secondary">
+        <TextView
+            android:id="@+id/header_home"
+            style="@style/tv_toolbar"
+            android:text="Details" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon_about"
+            style="@style/profile_toolbar"
+            android:src="@drawable/profile"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_data_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/data_type" />
+    <TextView
+        android:id="@+id/tv_data_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/data_type" />
+    <TextView
+        android:id="@+id/tv_data_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/data_price" />
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        style="@style/toolbar"
+        android:background="@color/secondary">
+        <TextView
+            android:id="@+id/header_home"
+            style="@style/tv_toolbar"
+            android:text="@string/bouquet_catalog" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon_about"
+            style="@style/profile_toolbar"
+            android:src="@drawable/profile"/>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_bouquets"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_row_bouquet" />
+
+</RelativeLayout>

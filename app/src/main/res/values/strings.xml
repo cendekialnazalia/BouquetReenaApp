@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bouquet Reena</string>
+    <string name="type_bouquet">Type Bouquet</string>
+    <string name="bouquet_name">Name Bouquet</string>
+    <string name="price">Price</string>
+    <string name="home">Home</string>
+    <string name="detail">Detail</string>
+    <string name="bouquet_catalog">Bouquet Catalog</string>
+    <string name="about">About</string>
+    <string name="data_type">type</string>
+    <string name="data_name">name</string>
+    <string name="data_price">price</string>
+</resources>
